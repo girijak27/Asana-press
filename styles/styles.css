@@ -329,6 +329,14 @@ ul.ul-list-1 {
 
 }
 
+.row{
+    margin: 10px 5px;
+}
+
+.input-control{
+    width: 300px;
+}
+
 .press-body {
     display: block;
     padding: 20px 200px;
