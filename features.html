@@ -27,18 +27,46 @@
         </div>
         <div class="asana-main">
   
-            <form method="get" action="resources.html"> 
+            <form method="get" action="resources.html" onSubmit="alert('gov')"> 
 
                 <!-- query string
                 query parameters -->
                 <!-- get/post/put/delete -->
+
+
+
+Event 
+======
+
+Event Propogation:
+
+                    Event Bubling - Event Propogates from child to parent
+                    Event Capture - Event Propogates from parent to child
+
+Types of events:
+
+onFocus
+onClick
+onDblClick
+onBlur
+onMouseOver
+onMouseOut
+onChange
+onLoad
+onSubmit
+
+
+
+Chrome -> ... -> more tools -> Extensions -> Search "screen capture" -> Add
+
+
                 <div class="row">
                     <label for="fname">First Name: </label>
-                    <input type="text" name="fname" id="fname" class="input-control" />
+                    <input type="text" required="true" min="5" max="10" disabled name="fname" onChange="alert('sud')"   id="fname" class="input-control" />
                 </div>
                 <div class="row">
                     <label for="lname">Last Name: </label>
-                    <input type="text" name="lname" id="lname" class="input-control" />
+                    <input type="text" required name="lname" id="lname" class="input-control" />
                 </div>
 
                 <div class="row">
