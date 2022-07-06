@@ -31,20 +31,20 @@ for(var i=1; i < 100; i=i+1){
     console.log(num, ' * ', i, ' = ', num*i);
 }
 
-var i =0; // initialization
-while(condition){ // condition
+// var i =0; // initialization
+// while(condition){ // condition
 
-    console.log(num, ' * ', i, ' = ', num*i);
+//     console.log(num, ' * ', i, ' = ', num*i);
 
-   i = i+1; // increment/decrement
-}
+//    i = i+1; // increment/decrement
+// }
+// =============================================
+// var i= 0;
+// do{
+//    console.log(i)
 
-var i= 0;
-do{
-   console.log(i)
-
- i++;
-}while(condition)
+//  i++;
+// }while(condition)
 
 console.log('Girija', 'Goverdhan', 'Sudarshan', 'Soni');
 
@@ -57,6 +57,23 @@ console.log('Girija');
 console.log('Girija');
 console.log('Girija');
 console.log('Girija');
+
+// Write a program to read 10 names
+
+var arr1 = [];
+
+for(var i=0; i<10; i++){
+   var value =  prompt('Enter Name:');
+   arr1.push(value); 
+}
+
+console.log(arr1[3], arr1[1]);
+
+for(var i=0; i<10; i++){
+    alert(arr1[i]);
+}
+
+
 
 
 
