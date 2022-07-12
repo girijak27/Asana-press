@@ -197,6 +197,62 @@ confirm('Are you sure?');
 prompt('Please enter your Name');
 
 
+// Function 
+
+// - Function definition
+// - Function calling
+
+// Pre-defined function and user defined function
+
+Pre-defined function - direct calling
+====================
+
+isNaN()
+isArray()
+toString()
+concate()
+toUpperCase()
+toLowerCase()
+parseInt()
+
+
+push()
+pop()
+shift()
+unshift()
+slice()
+splice()
+join()
+
+User defined function
+=====================
+step 1: Defining the function (create)
+step 2: calling the function 
+
+function girija(){
+
+    var name = "gov";
+    var person = {
+        name: 'gov',
+        nickName: 'Dhanu'
+    }
+    for(){
+
+    }
+    if(){
+
+    }
+
+}
+
+girija();
+
+girija();
+
+girija();
+
+
+
 
 
 
