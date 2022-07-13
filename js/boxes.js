@@ -49,3 +49,5 @@ var cup = tank('Goverdhan Koy');
 
 alert(cup);
 
+var fname = "Govedhan";
+var lname = "Koyalkar";
