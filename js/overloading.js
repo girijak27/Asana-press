@@ -1,6 +1,6 @@
 // function overloading
 
-function sum(x: number, y: number){
+function sum(x, y){
     return x + y;
 }
 
@@ -8,7 +8,7 @@ function sum(x, y, z){
     return x + y + z;
 }
 
-function sum(x: string, y: string){
+function sum(x, y){
     return x + y;
 }
 

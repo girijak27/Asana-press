@@ -30,11 +30,11 @@ function mul(){
     }
     return add;
 }
+var obj;
 
-var add = sum.call(1, 2, 5, 8, 8, 9, 21);
+var add = sum.call(obj, 1, 2, 5, 8, 8, 9, 21);
 console.log(add);
 
-var obj;
 
 var into = sum.apply(obj, [1, 2, 5, 8, 8, 9, 21]);
 console.log(into);
