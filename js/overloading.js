@@ -1,24 +1,22 @@
 // function overloading
 
-function sum(x: number, y: number){
+function sum(x=Number, y=Number){
     return x + y;
 }
 
-function sum(x, y, z){
+function sum(x=Number, y=Number, z=Number){
     return x + y + z;
 }
 
-function sum(x: string, y: string){
-    return x + y;
+function sum(x=String, y=String, z=String){
+    return x + y + z;
 }
 
-var z = sum(5, 15);
+var a = sum(15, 15);
+console.log(a);
 
-z = sum('Gov', 'Koy');
+a = sum(5, 5, 5);
+console.log(a);
 
-
-console.log(z);
-
-
-z = sum(5, 15, 29);
-console.log(z);
+a = sum("Gov", "Koy", "Gir");
+console.log(a);

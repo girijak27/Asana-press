@@ -1,7 +1,7 @@
 // Variable scoping
 
 // Global variables
-var name = "Gov"
+var name = "Goverdhan"
 
 function abc(){
     // local variables
