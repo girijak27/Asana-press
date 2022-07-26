@@ -1,0 +1,90 @@
+// Object Oriented Programming 
+
+// 1. Encapsulation
+// 2. Inheritance
+// 3. Polymorphism
+//     - Method Overridding
+//     - Method Over Loading
+// 4. Access Specifier
+// 5. Import/Export
+// 6. Constructor 
+
+var arr = ['abc', 'xyz'];
+var obj = {
+    fName: 'Gov',
+    lName: 'Koy',
+    job: function(){
+
+    }
+};
+
+console.log(obj.fName);
+
+// What are the new features in ECMAScript 2015 (ES5) ?
+
+// 1. Encapsulation
+
+class myClass {
+    // ** it consists of properties and methods - no logic and no operations
+    fname;
+    lname;
+    abc(){
+        console.log(this.fName);
+    }
+    xyz(){
+       console.log(this.abc());
+    }
+}
+
+var myCls = new myClass();
+
+console.log(myCls.fName)
+
+// JSON - Javascript Object Notation
+
+// Pre-defined Class and User defined Class
+
+// Array
+// Object
+// Date
+
+var y = new Array();
+var obj = new Object();
+var date = new Date();
+
+console.log(date);
+
+console.log(date.getMonth());
+console.log(date.getDay());
+console.log(date.getFullYear());
+
+var math = Math();
+
+// 2. Inheritance
+
+// Inheritance is possible if there are more then one class.
+
+- extends
+- implements
+
+class Person {
+    name;
+    age;
+    address;
+    phone;
+    qaulification;
+}
+
+class Salary {
+    basic;
+    hra;
+}
+
+class Employee extends Person implements Salary ABC {
+    empId;
+    job;
+
+    duity(){
+        console.log(this.name);
+    } 
+}
