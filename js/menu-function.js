@@ -59,7 +59,7 @@
  }
  xyz();
  // over loading
- function sum(x= Number, y= Number){
+ function sum(x, y){
   return x+y;
  }
  var a=sum(12,23);
@@ -67,14 +67,14 @@
 
 // adding 3 numbers
 
- function sum(x=Number, y=Number, z=Number){
+ function sum(x, y, z){
 return x + y + z;
  }
   var a = sum(21,23,44);
  console.log(a);
 
  // overrloading string
- function sum(x= String, y= String){
+ function sum(x, y){
   return x+y;
  }
  a=sum('girija','varsha');
