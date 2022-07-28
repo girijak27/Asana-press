@@ -30,13 +30,15 @@ function mul(){
     }
     return add;
 }
-var obj;
+// var obj;
+// var add = sum.call(10, 2, 5, 8, 9, 2);
+// =======
+// var add = sum.call(obj, 1, 2, 5, 8, 8, 9, 21);
+// >>>>>>> bd68f90442b7ee298bbb8c58f1b5ab5f3a40b7cd
+// console.log(add);
 
-var add = sum.call(obj, 1, 2, 5, 8, 8, 9, 21);
-console.log(add);
 
-
-var into = sum.apply(obj, [1, 2, 5, 8, 8, 9, 21]);
-console.log(into);
+// var into = mul.apply(obj, [1, 2, 5, 8, 8, 9, 21]);
+// console.log(into);
 
 

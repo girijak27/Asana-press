@@ -49,9 +49,10 @@ name = name.toUpperCase();
 console.log(name)
 
 // toLowerCase()
-name = 'Grijia'.toLowerCase();
+fname = "Grijia";
+fname=fname.toLowerCase();
 
-console.log(name);
+console.log(fname);
 
 var p = parseInt('1000.00');
 
