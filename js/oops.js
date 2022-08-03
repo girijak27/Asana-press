@@ -200,7 +200,7 @@ class abc {
 var instance = new abc();
 
 console.log(instance.xyz()); // Gov
-console.log(instance.pqr()); // Gov
+console.log(instance.pqr()); // kol
 
 6. import / export
 
